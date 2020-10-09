@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  code-log:
+    build: ./.docker
+    container_name: code-log
+    restart: always
+    tty: true
+    ports:
+        - 5501:5501
