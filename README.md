@@ -18,7 +18,7 @@
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
 
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=codemastersolutions_code-log&metric=ncloc)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=codemastersolutions_code-log)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=codemastersolutions_code-log&metric=alert_status)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=codemastersolutions_code-log&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=codemastersolutions_code-log&metric=security_rating)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=codemastersolutions_code-log&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
