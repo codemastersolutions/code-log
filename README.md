@@ -8,7 +8,7 @@
 [![License](https://poser.pugx.org/codemastersolutions/code-log/license)](https://github.com/codemastersolutions/code-log/blob/HEAD/LICENSE.md)
 [![Latest Stable Version](https://poser.pugx.org/codemastersolutions/code-log/v)](//packagist.org/packages/codemastersolutions/code-log)
 [![Latest Unstable Version](https://poser.pugx.org/codemastersolutions/code-log/v/unstable)](//packagist.org/packages/codemastersolutions/code-log)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/codemastersolutions/code-log.svg?style=flat-square)](https://packagist.org/packages/codemastersolutions/code-log)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/codemastersolutions/code-log.svg)](https://packagist.org/packages/codemastersolutions/code-log)
 ![Run Tests](https://github.com/codemastersolutions/code-log/workflows/Run%20Tests/badge.svg?branch=main)
 
 [![Total Downloads](https://poser.pugx.org/codemastersolutions/code-log/downloads)](//packagist.org/packages/codemastersolutions/code-log)
@@ -111,7 +111,7 @@ ou
 ./phpunit-watcher --filter=nome-do-teste
 ```
 
-## Creditos
+## Créditos
 
 - [CodeMaster Soluções](https://github.com/codemastersolutions)
 - [Gilson Gabriel](https://github.com/gilsongabriel)
