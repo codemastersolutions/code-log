@@ -1,6 +1,6 @@
 {
     "name": "codemastersolutions/code-log",
-    "description": "Pacote de gerenciamento de logs para Laravel 8",
+    "description": "Pacote simplificado para persistência de logs",
     "keywords": [
         "codemaster",
         "solutions",
