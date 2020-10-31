@@ -52,8 +52,8 @@
         "illuminate/container": "^8.6",
         "illuminate/contracts": "^8.6",
         "illuminate/database": "^8.6",
+        "matomo/device-detector": "^4.0",
         "monolog/monolog": "^2.1",
-        "piwik/device-detector": "^3.13",
         "sinergi/browser-detector": "^6.1"
     },
     "require-dev": {
