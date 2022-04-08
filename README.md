@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://codemastersolucoes.com" target="_blank">
-        <img data-testid="logo" src="https://cms-public-images.s3.amazonaws.com/logo.png">
+        <img alt="logo codemaster ssoluções" data-testid="logo" src="https://cms-public-images.s3.amazonaws.com/logo.png">
     </a>
     <h1 align="center">Pacote simplificado para persistência de logs</h1>
 </p>
@@ -27,13 +27,13 @@
 
 ## Instalação
 
-``` bash
+```bash
 composer require codemastersolutions/code-log
 ```
 
 ## Instruções de uso
 
-``` php
+```php
 use CodeMaster\CodeLog\Logging\Log;
 
 //Log do tipo debug, para tratar errors
@@ -51,7 +51,7 @@ Log::success('log', ['dados para análise']);
 
 Utilizando a facade para persistência de logs
 
-``` php
+```php
 use CodeMaster\CodeLog\Facades\CodeLog;
 
 //Log do tipo debug, para tratar errors
@@ -69,7 +69,7 @@ CodeLog::success('log', ['dados para análise']);
 
 Utilizando o helper para persistência de logs
 
-``` php
+```php
 //Log do tipo debug, para tratar errors
 codelog('log', ['dados para análise']);
 
@@ -89,36 +89,36 @@ codelog('log', ['dados para análise'], Log::SUCCESS);
 
 ### Testes Automatizados
 
-``` bash
+```bash
 composer test
 ```
 
 ou
 
-``` bash
+```bash
 ./phpunit
 ```
 
 ### Testes Automatizados com Observabilidade de Alterações
 
-``` bash
+```bash
 ./phpunit-watcher
 ```
 
 ### Filtrando testes
 
-``` bash
+```bash
 ./phpunit-watcher --filter=nome-do-teste
 ```
 
 ## Créditos
 
-- [CodeMaster Soluções](https://github.com/codemastersolutions)
-- [Gilson Gabriel](https://github.com/gilsongabriel)
+-   [CodeMaster Soluções](https://github.com/codemastersolutions)
+-   [Gilson Gabriel](https://github.com/gilsongabriel)
 
 ## Autor
 
-- [Gilson Gabriel](https://github.com/gilsongabriel)
+-   [Gilson Gabriel](https://github.com/gilsongabriel)
 
 ## Licença
 
