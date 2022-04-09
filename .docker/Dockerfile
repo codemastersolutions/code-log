@@ -1,4 +1,4 @@
-FROM codemastersolutions/php:8.1.4-fpm-alpine-3.15
+FROM codemastersolutions/php:7.4.12-fpm-alpine-3.12
 
 RUN apk add --no-cache --update openssh-keygen npm
 RUN git config --global user.email "gilson@codemastersolucoes.com"
