@@ -1,6 +1,10 @@
 name: Tests
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   test:
@@ -10,9 +14,14 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         php: [7.4, 8.0]
+        laravel: [8.*, 9.*]
+        testbench: [6.*, 7.*]
         dependency-version: [prefer-lowest, prefer-stable]
+        include:
+          - laravel: ${{ matrix.laravel }}
+          - testbench: ${{ matrix.testbench }}
 
-    name: P${{ matrix.php }} - ${{ matrix.dependency-version }} - ${{ matrix.os }}
+    name: P${{ matrix.php }} - l${{ matrix.laravel }} - ${{ matrix.dependency-version }} - ${{ matrix.os }}
 
     steps:
       - name: Checkout code
@@ -26,7 +35,7 @@ jobs:
           coverage: none
 
       - name: Install dependencies
-        run: composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction
+        run: composer install --${{ matrix.dependency-version }} --prefer-dist --no-interaction --no-progress
 
       - name: Execute tests
         run: vendor/bin/phpunit
