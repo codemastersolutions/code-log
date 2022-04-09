@@ -4,6 +4,8 @@ services:
   code-log:
     build: ./.docker
     container_name: code-log
+    volumes:
+      - .:/var/www/html
     restart: always
     tty: true
     ports:

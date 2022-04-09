@@ -7,9 +7,6 @@ RUN git config --global color.ui true
 
 RUN chmod +x /usr/local/bin/docker-php-entrypoint
 
-COPY ./ssh/* /root/.ssh/
-COPY ./ssh/* ~/.ssh/
-
-WORKDIR /var/www
+WORKDIR /var/www/html
 
 EXPOSE 5501
