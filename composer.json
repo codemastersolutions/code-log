@@ -47,7 +47,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0 || ^8.1",
         "illuminate/auth": "^8.6",
         "illuminate/container": "^8.6",
         "illuminate/contracts": "^8.6",
