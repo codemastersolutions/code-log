@@ -5,6 +5,8 @@ services:
     build: ./.docker
     container_name: code-log
     restart: always
+    volumes:
+      - .:/var/www/html
     tty: true
     ports:
-        - 5501:5501
+      - 5501:5501
