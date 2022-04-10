@@ -8,6 +8,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
+        os: [ubuntu-latest]
         php: [7.4, 8.0]
         laravel: [8.*, 9.*]
         testbench: [6.*, 7.*]
@@ -30,7 +31,7 @@ jobs:
           coverage: none
 
       - name: Install dependencies
-        run: composer install --${{ matrix.dependency-version }} --prefer-dist --no-interaction
+        run: composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction
 
       - name: Execute tests
         run: vendor/bin/phpunit
