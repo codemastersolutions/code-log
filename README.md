@@ -25,15 +25,22 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=codemastersolutions_code-log&metric=sqale_index)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=codemastersolutions_code-log&metric=bugs)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
 
+## Laravel Version Compatibility
+
+| Laravel | CodeLog |
+| :------ | :------ |
+| 8.x     | 0.x     |
+| 9.x     | 1.x     |
+
 ## Instalação
 
-``` bash
+```bash
 composer require codemastersolutions/code-log
 ```
 
 ## Instruções de uso
 
-``` php
+```php
 use CodeMaster\CodeLog\Logging\Log;
 
 //Log do tipo debug, para tratar errors
@@ -51,7 +58,7 @@ Log::success('log', ['dados para análise']);
 
 Utilizando a facade para persistência de logs
 
-``` php
+```php
 use CodeMaster\CodeLog\Facades\CodeLog;
 
 //Log do tipo debug, para tratar errors
@@ -69,7 +76,7 @@ CodeLog::success('log', ['dados para análise']);
 
 Utilizando o helper para persistência de logs
 
-``` php
+```php
 //Log do tipo debug, para tratar errors
 codelog('log', ['dados para análise']);
 
@@ -89,25 +96,25 @@ codelog('log', ['dados para análise'], Log::SUCCESS);
 
 ### Testes Automatizados
 
-``` bash
+```bash
 composer test
 ```
 
 ou
 
-``` bash
+```bash
 ./phpunit
 ```
 
 ### Testes Automatizados com Observabilidade de Alterações
 
-``` bash
+```bash
 ./phpunit-watcher
 ```
 
 ### Filtrando testes
 
-``` bash
+```bash
 ./phpunit-watcher --filter=nome-do-teste
 ```
 
