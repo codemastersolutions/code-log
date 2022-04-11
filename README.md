@@ -25,7 +25,7 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=codemastersolutions_code-log&metric=sqale_index)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=codemastersolutions_code-log&metric=bugs)](https://sonarcloud.io/dashboard?id=codemastersolutions_code-log)
 
-## Laravel Version Compatibility
+## Compatibilidade com Versões Laravel
 
 | Laravel | CodeLog |
 | :------ | :------ |
